@@ -678,7 +678,7 @@ if __name__ == '__main__':
     parser.add_argument("--key_word", type=str, default='GPT robot', help="the key word of user research fields")    
     parser.add_argument("--page_num", type=int, default=1, help="the maximum number of page")
     parser.add_argument("--max_results", type=int, default=1, help="the maximum number of results")
-    parser.add_argument("--days", type=int, default=1, help="the last days of arxiv papers of this query")        
+    parser.add_argument("--days", type=str, default=1, help="the last days of arxiv papers of this query")        
     parser.add_argument("--sort", type=str, default="web", help="another is LastUpdatedDate")    
     parser.add_argument("--save_image", default=False, help="save image? It takes a minute or two to save a picture! But pretty")
     parser.add_argument("--file_format", type=str, default='md', help="导出的文件格式，如果存图片的话，最好是md，如果不是的话，txt的不会乱")
